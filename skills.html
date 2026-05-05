@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Skills | Prabin Ayer</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<style>
+  body{background:#0c0e12;color:#e2e2e8;}
+  .glass-panel{background:rgba(17,19,24,0.4);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.1);}
+  .glass-panel:hover{border-color:rgba(255,255,255,0.2);box-shadow:inset 0 1px 0 0 rgba(255,255,255,0.05);transform:translateY(-4px);transition:all 0.3s ease;}
+  .tech-glow{box-shadow:0 0 20px rgba(173,198,255,0.15);}
+  .hospitality-glow{box-shadow:0 0 20px rgba(255,183,125,0.15);}
+  .material-symbols-outlined{font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24;}
+</style>
+</head>
+<body class="font-['Manrope']">
+<nav class="fixed top-0 w-full z-50 bg-slate-950/40 backdrop-blur-xl border-b border-white/10">
+  <div class="flex justify-between items-center w-full px-8 py-4 mx-auto max-w-7xl">
+    <a href="index.html" class="text-2xl font-bold bg-gradient-to-r from-blue-500 to-orange-400 bg-clip-text text-transparent font-['Space_Grotesk']">Prabin Ayer</a>
+    <div class="hidden md:flex items-center space-x-8 font-['Space_Grotesk']">
+      <a href="index.html" class="text-slate-400 hover:text-blue-300 transition-all">Overview</a>
+      <a href="computing.html" class="text-slate-400 hover:text-blue-300 transition-all">Computing Science</a>
+      <a href="hospitality.html" class="text-slate-400 hover:text-blue-300 transition-all">Hospitality</a>
+      <a href="skills.html" class="text-blue-400 border-b-2 border-blue-500 pb-1">Skills</a>
+      <a href="ratings.html" class="text-slate-400 hover:text-blue-300 transition-all">Ratings</a>
+      <a href="gallery.html" class="text-slate-400 hover:text-blue-300 transition-all">Gallery</a>
+      <a href="contact.html" class="text-slate-400 hover:text-blue-300 transition-all">Contact</a>
+    </div>
+    <a href="contact.html" class="bg-blue-500/40 border border-blue-400 text-white px-6 py-2 rounded-lg hover:bg-blue-500/60 transition-all font-bold">Contact Me</a>
+  </div>
+</nav>
+<main class="relative pt-32 pb-24 px-8 max-w-7xl mx-auto overflow-hidden">
+  <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-400/10 blur-[120px] rounded-full -z-10"></div>
+  <div class="absolute bottom-0 left-0 w-[500px] h-[500px] bg-orange-400/10 blur-[120px] rounded-full -z-10"></div>
+  <header class="mb-24">
+    <div class="inline-flex items-center px-3 py-1 rounded-full bg-white/5 border border-white/10 mb-6">
+      <span class="material-symbols-outlined text-sm mr-2 text-blue-400">psychology</span>
+      <span class="text-xs font-bold text-slate-400 uppercase tracking-wider">Dual Expertise</span>
+    </div>
+    <h1 class="text-6xl font-bold text-white mb-6 max-w-4xl font-['Space_Grotesk']">Technical & Professional Skills</h1>
+    <p class="text-lg text-slate-400 max-w-2xl">Bridging complex logic with curated human experiences. My approach integrates the precision of software engineering with the artistry of premium hospitality.</p>
+  </header>
+
+  <!-- Computing Section -->
+  <section class="mb-32">
+    <div class="flex items-center gap-4 mb-12">
+      <div class="p-3 rounded-xl bg-blue-400/20 border border-blue-400/30"><span class="material-symbols-outlined text-blue-400">terminal</span></div>
+      <h2 class="text-3xl font-semibold font-['Space_Grotesk']">Computing Science</h2>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+      <div class="md:col-span-5 glass-panel rounded-2xl overflow-hidden tech-glow">
+        <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=600&fit=crop" alt="Coding and Development"/>
+      </div>
+      <div class="md:col-span-7 glass-panel rounded-2xl p-8 tech-glow">
+        <div class="flex items-center gap-2 mb-8 text-slate-500 font-mono text-sm">
+          <div class="flex gap-1.5"><div class="w-3 h-3 rounded-full bg-red-500/50"></div><div class="w-3 h-3 rounded-full bg-yellow-500/50"></div><div class="w-3 h-3 rounded-full bg-green-500/50"></div></div>
+          <span class="ml-4">~/prabin/skills/languages --list</span>
+        </div>
+        <div class="space-y-8">
+          <div><div class="flex justify-between mb-2"><span class="text-blue-400 font-semibold">Python</span><span class="font-mono text-slate-400">90%</span></div><div class="h-1.5 w-full bg-white/5 rounded-full overflow-hidden"><div class="h-full bg-blue-400 rounded-full" style="width:90%"></div></div></div>
+          <div><div class="flex justify-between mb-2"><span class="text-blue-400 font-semibold">TypeScript</span><span class="font-mono text-slate-400">85%</span></div><div class="h-1.5 w-full bg-white/5 rounded-full overflow-hidden"><div class="h-full bg-blue-400 rounded-full" style="width:85%"></div></div></div>
+          <div><div class="flex justify-between mb-2"><span class="text-blue-400 font-semibold">Go</span><span class="font-mono text-slate-400">75%</span></div><div class="h-1.5 w-full bg-white/5 rounded-full overflow-hidden"><div class="h-full bg-blue-400 rounded-full" style="width:75%"></div></div></div>
+          <div><div class="flex justify-between mb-2"><span class="text-blue-400 font-semibold">C++</span><span class="font-mono text-slate-400">65%</span></div><div class="h-1.5 w-full bg-white/5 rounded-full overflow-hidden"><div class="h-full bg-blue-400 rounded-full" style="width:65%"></div></div></div>
+        </div>
+      </div>
+      <div class="md:col-span-12 glass-panel rounded-2xl p-6 tech-glow">
+        <h3 class="text-xl font-semibold mb-6 text-blue-400 flex items-center gap-2 font-['Space_Grotesk']"><span class="material-symbols-outlined">auto_awesome</span>Frameworks</h3>
+        <div class="flex flex-wrap gap-2 mb-8">
+          <span class="px-3 py-1.5 rounded-lg bg-blue-400/10 border border-blue-400/20 text-blue-400 text-xs font-bold">React/Next.js</span>
+          <span class="px-3 py-1.5 rounded-lg bg-blue-400/10 border border-blue-400/20 text-blue-400 text-xs font-bold">FastAPI/Flask</span>
+          <span class="px-3 py-1.5 rounded-lg bg-blue-400/10 border border-blue-400/20 text-blue-400 text-xs font-bold">Tailwind CSS</span>
+          <span class="px-3 py-1.5 rounded-lg bg-blue-400/10 border border-blue-400/20 text-blue-400 text-xs font-bold">PyTorch</span>
+          <span class="px-3 py-1.5 rounded-lg bg-blue-400/10 border border-blue-400/20 text-blue-400 text-xs font-bold">Redux</span>
+          <span class="px-3 py-1.5 rounded-lg bg-blue-400/10 border border-blue-400/20 text-blue-400 text-xs font-bold">Node.js</span>
+        </div>
+        <div class="pt-6 border-t border-white/5">
+          <h3 class="text-xl font-semibold mb-6 text-blue-400 flex items-center gap-2 font-['Space_Grotesk']"><span class="material-symbols-outlined">settings_ethernet</span>DevOps & Tools</h3>
+          <ul class="space-y-3 text-slate-400 text-sm">
+            <li class="flex items-center gap-3"><span class="material-symbols-outlined text-sm text-blue-400">token</span>Docker & Kubernetes</li>
+            <li class="flex items-center gap-3"><span class="material-symbols-outlined text-sm text-blue-400">cloud</span>AWS Infrastructure</li>
+            <li class="flex items-center gap-3"><span class="material-symbols-outlined text-sm text-blue-400">database</span>PostgreSQL & Redis</li>
+            <li class="flex items-center gap-3"><span class="material-symbols-outlined text-sm text-blue-400">commit</span>Git & CI/CD Pipelines</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hospitality Section -->
+  <section class="mb-32">
+    <div class="flex items-center gap-4 mb-12">
+      <div class="p-3 rounded-xl bg-orange-400/20 border border-orange-400/30"><span class="material-symbols-outlined text-orange-400">liquor</span></div>
+      <h2 class="text-3xl font-semibold font-['Space_Grotesk']">Hospitality Mastery</h2>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div class="relative group rounded-2xl overflow-hidden hospitality-glow" style="aspect-ratio:3/4">
+        <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://images.unsplash.com/photo-1514432324607-2e467f4af445?w=400&h=500&fit=crop" alt="Craft Cocktails"/>
+        <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
+        <div class="absolute bottom-6 left-6"><p class="text-xl font-semibold text-white font-['Space_Grotesk']">Mixology</p><p class="text-orange-400 text-sm">Craft Cocktails</p></div>
+      </div>
+      <div class="relative group rounded-2xl overflow-hidden hospitality-glow" style="aspect-ratio:3/4">
+        <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://images.unsplash.com/photo-1488747807830-63789f68bb65?w=400&h=500&fit=crop" alt="Sky Garden"/>
+        <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
+        <div class="absolute bottom-6 left-6"><p class="text-xl font-semibold text-white font-['Space_Grotesk']">Sky Garden</p><p class="text-orange-400 text-sm">Premium Venues</p></div>
+      </div>
+      <div class="relative group rounded-2xl overflow-hidden hospitality-glow" style="aspect-ratio:3/4">
+        <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://images.unsplash.com/photo-1504674900152-b8525f434575?w=400&h=500&fit=crop" alt="Fine Dining"/>
+        <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
+        <div class="absolute bottom-6 left-6"><p class="text-xl font-semibold text-white font-['Space_Grotesk']">Fine Dining</p><p class="text-orange-400 text-sm">Service Excellence</p></div>
+      </div>
+      <div class="relative group rounded-2xl overflow-hidden hospitality-glow" style="aspect-ratio:3/4">
+        <img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=500&fit=crop" alt="Bartender Skills"/>
+        <div class="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
+        <div class="absolute bottom-6 left-6"><p class="text-xl font-semibold text-white font-['Space_Grotesk']">Bartending</p><p class="text-orange-400 text-sm">Expert Technique</p></div>
+      </div>
+      <div class="md:col-span-12">
+        <div class="glass-panel rounded-2xl p-8 hospitality-glow h-full">
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div>
+              <h3 class="text-xl font-semibold mb-8 text-orange-400 flex items-center gap-2 font-['Space_Grotesk']"><span class="material-symbols-outlined">restaurant_menu</span>Core Skills</h3>
+              <div class="space-y-6">
+                <div class="flex items-start gap-4"><span class="material-symbols-outlined text-orange-400 mt-1">liquor</span><div><h4 class="font-semibold">Mixology & Craft Cocktails</h4><p class="text-sm text-slate-400">Expertise in balance, texture, and visual presentation.</p></div></div>
+                <div class="flex items-start gap-4"><span class="material-symbols-outlined text-orange-400 mt-1">wine_bar</span><div><h4 class="font-semibold">Fine Dining Service</h4><p class="text-sm text-slate-400">Silver service and high-pressure guest interaction.</p></div></div>
+                <div class="flex items-start gap-4"><span class="material-symbols-outlined text-orange-400 mt-1">inventory</span><div><h4 class="font-semibold">Inventory & Stock Control</h4><p class="text-sm text-slate-400">Data-backed management of premium liquid assets.</p></div></div>
+              </div>
+            </div>
+            <div class="bg-gray-800/50 rounded-xl p-6 border border-white/5">
+              <h3 class="font-semibold text-lg mb-6 text-white uppercase tracking-widest">Certifications</h3>
+              <div class="space-y-3">
+                <div class="flex justify-between items-center p-3 rounded-lg bg-white/5"><span class="text-sm">Food Safety Level 2</span><span class="text-green-400">✓</span></div>
+                <div class="flex justify-between items-center p-3 rounded-lg bg-white/5"><span class="text-sm">Mixology Certified</span><span class="text-green-400">✓</span></div>
+                <div class="flex justify-between items-center p-3 rounded-lg bg-white/5"><span class="text-sm">DBS Cleared</span><span class="text-green-400">✓</span></div>
+                <div class="flex justify-between items-center p-3 rounded-lg bg-white/5"><span class="text-sm">Team Leadership</span><span class="text-green-400">✓</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="bg-slate-950/60 backdrop-blur-lg border-t border-white/10 w-full py-12">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 w-full px-8 mx-auto max-w-7xl">
+    <div><span class="text-lg font-semibold text-white font-['Space_Grotesk']">Prabin Ayer</span><p class="text-slate-500 text-sm uppercase tracking-widest mt-4">© 2024 Prabin Ayer. Built with technical precision.</p></div>
+    <div class="flex flex-wrap gap-8 md:justify-end">
+      <a href=\"https://www.facebook.com/ayerprabin\" class=\"text-slate-500 hover:text-orange-300 text-sm uppercase tracking-widest\">Facebook</a>
+      <a href=\"https://www.instagram.com/ayerprabin/\" class=\"text-slate-500 hover:text-orange-300 text-sm uppercase tracking-widest\">Instagram</a>
+      <a href=\"https://www.linkedin.com/in/ayerprabin/\" class=\"text-slate-500 hover:text-orange-300 text-sm uppercase tracking-widest\">LinkedIn</a>
+      <a href="https://github.com/AyerPrabin" class="text-slate-500 hover:text-orange-300 text-sm uppercase tracking-widest">GitHub</a>
+      <a href="mailto:ayerprabin95@gmail.com" class="text-slate-500 hover:text-orange-300 text-sm uppercase tracking-widest">Email</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

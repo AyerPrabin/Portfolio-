@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ratings | Prabin Ayer</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<style>
+  body{background-color:#111318;color:#e2e2e8;background-image:linear-gradient(to bottom,rgba(17,19,24,0.8),rgba(17,19,24,0.95)),url(https://lh3.googleusercontent.com/aida/ADBb0uiTIZ_RR_DPTRoPOB47JJSQkV_BkPmyMfbupTqkjkLDNYJr5I8fQ819myIz7z0t2EpMC3N8GZrqB8qXi6bzbo_cTkjzGIBeK65xYfKZCDsXlGCiXpXH6s-GW9LRez2pEzBUxze4iswQn8u0EwuhUlSqgUJ7aEo6oLBzFSX2NuxagTWI3mrxhDbowpeBKB5klsx9JU-S9E4rajYWj3IveI1VYqo7IY3j1JgVjQboCsNEL7HjVtDX87YjkIKw1MrcvmgyXKfxAfzSdOQ);background-size:cover;background-attachment:fixed;}
+  .glass-card{background:rgba(17,19,24,0.6);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.1);}
+  .glass-card:hover{border-color:rgba(173,198,255,0.4);transform:translateY(-4px);transition:all 0.3s;}
+  .material-symbols-outlined{font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24;}
+  .radial-progress{position:relative;width:100px;height:100px;}
+</style>
+</head>
+<body class="font-['Manrope'] min-h-screen flex flex-col">
+<nav class="fixed top-0 w-full z-50 bg-slate-950/40 backdrop-blur-xl border-b border-white/10">
+  <div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+    <a href="index.html" class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300 font-['Space_Grotesk']">Prabin Ayer</a>
+    <div class="hidden md:flex items-center gap-8 font-['Space_Grotesk']">
+      <a href="index.html" class="text-slate-400 hover:text-white transition-colors">Overview</a>
+      <a href="computing.html" class="text-slate-400 hover:text-white transition-colors">Computing Science</a>
+      <a href="hospitality.html" class="text-slate-400 hover:text-white transition-colors">Hospitality</a>
+      <a href="skills.html" class="text-slate-400 hover:text-white transition-colors">Skills</a>
+      <a href="ratings.html" class="text-blue-400 border-b-2 border-blue-500 pb-1">Ratings</a>
+      <a href="gallery.html" class="text-slate-400 hover:text-white transition-colors">Gallery</a>
+      <a href="contact.html" class="text-slate-400 hover:text-white transition-colors">Contact</a>
+    </div>
+    <a href="#" class="bg-blue-400/20 border border-blue-400 text-blue-400 px-6 py-2 rounded-full font-bold hover:bg-blue-400/30 transition-all">Download CV</a>
+  </div>
+</nav>
+<main class="flex-grow pt-32 pb-24 px-8 max-w-7xl mx-auto w-full">
+  <header class="mb-12 text-center">
+    <h1 class="text-6xl font-bold text-white mb-4 font-['Space_Grotesk']">Performance & Praise</h1>
+    <p class="text-lg text-slate-400 max-w-2xl mx-auto">A testament to technical precision and service excellence. Bridging the gap between binary logic and human connection through consistent high-performance delivery.</p>
+  </header>
+  <!-- Ratings Overview -->
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
+    <div class="glass-card p-8 rounded-xl flex flex-col items-center justify-center text-center">
+      <span class="text-xs font-bold text-orange-400 mb-2 uppercase tracking-wider">Aggregate Score</span>
+      <div class="text-8xl font-bold leading-none text-blue-300" style="text-shadow:0 0 15px rgba(173,198,255,0.5)">5.0</div>
+      <div class="flex gap-1 text-orange-400 mb-4 mt-3">⭐⭐⭐⭐⭐</div>
+      <p class="text-slate-400 italic text-sm">"Excellence is not an act, but a habit."</p>
+    </div>
+    <div class="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="glass-card p-8 rounded-xl flex flex-col justify-between border-l-4 border-blue-400">
+        <div><h3 class="text-xl font-semibold text-blue-400 mb-2 font-['Space_Grotesk']">Technical Excellence</h3><p class="text-slate-400 text-sm mb-6">Software development, algorithm design, and system reliability ratings from peer reviews and client feedback.</p></div>
+        <div class="flex items-center gap-4"><div class="h-2 flex-grow bg-white/10 rounded-full overflow-hidden"><div class="h-full bg-blue-400 w-full" style="box-shadow:0 0 10px rgba(173,198,255,0.6)"></div></div><span class="font-semibold text-blue-400 text-xl">100%</span></div>
+      </div>
+      <div class="glass-card p-8 rounded-xl flex flex-col justify-between border-l-4 border-orange-400">
+        <div><h3 class="text-xl font-semibold text-orange-400 mb-2 font-['Space_Grotesk']">Service Artistry</h3><p class="text-slate-400 text-sm mb-6">Guest experience, high-pressure leadership, and mixology precision in world-class hospitality environments.</p></div>
+        <div class="flex items-center gap-4"><div class="h-2 flex-grow bg-white/10 rounded-full overflow-hidden"><div class="h-full bg-orange-400 w-full" style="box-shadow:0 0 10px rgba(255,183,125,0.6)"></div></div><span class="font-semibold text-orange-400 text-xl">100%</span></div>
+      </div>
+    </div>
+  </div>
+  <!-- Skill Metrics -->
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+    <div class="glass-card p-6 rounded-xl flex flex-col items-center gap-4">
+      <div class="radial-progress flex items-center justify-center"><svg class="w-full h-full transform -rotate-90"><circle class="text-white/5" cx="50" cy="50" fill="transparent" r="45" stroke="currentColor" stroke-width="4"></circle><circle class="text-blue-400" cx="50" cy="50" fill="transparent" r="45" stroke="currentColor" stroke-dasharray="283" stroke-dashoffset="14" stroke-width="6"></circle></svg><span class="absolute font-semibold text-blue-400">95%</span></div>
+      <span class="text-xs font-bold text-white uppercase text-center tracking-wider">Problem Solving</span>
+    </div>
+    <div class="glass-card p-6 rounded-xl flex flex-col items-center gap-4">
+      <div class="radial-progress flex items-center justify-center"><svg class="w-full h-full transform -rotate-90"><circle class="text-white/5" cx="50" cy="50" fill="transparent" r="45" stroke="currentColor" stroke-width="4"></circle><circle class="text-blue-400" cx="50" cy="50" fill="transparent" r="45" stroke="currentColor" stroke-dasharray="283" stroke-dashoffset="28" stroke-width="6"></circle></svg><span class="absolute font-semibold text-blue-400">90%</span></div>
+      <span class="text-xs font-bold text-white uppercase text-center tracking-wider">Code Efficiency</span>
+    </div>
+    <div class="glass-card p-6 rounded-xl flex flex-col items-center gap-4">
+      <div class="radial-progress flex items-center justify-center"><svg class="w-full h-full transform -rotate-90"><circle class="text-white/5" cx="50" cy="50" fill="transparent" r="45" stroke="currentColor" stroke-width="4"></circle><circle class="text-orange-400" cx="50" cy="50" fill="transparent" r="45" stroke="currentColor" stroke-dasharray="283" stroke-dashoffset="5" stroke-width="6"></circle></svg><span class="absolute font-semibold text-orange-400">98%</span></div>
+      <span class="text-xs font-bold text-white uppercase text-center tracking-wider">Mixology Craft</span>
+    </div>
+    <div class="glass-card p-6 rounded-xl flex flex-col items-center gap-4">
+      <div class="radial-progress flex items-center justify-center"><svg class="w-full h-full transform -rotate-90"><circle class="text-white/5" cx="50" cy="50" fill="transparent" r="45" stroke="currentColor" stroke-width="4"></circle><circle class="text-orange-400" cx="50" cy="50" fill="transparent" r="45" stroke="currentColor" stroke-dasharray="283" stroke-dashoffset="0" stroke-width="6"></circle></svg><span class="absolute font-semibold text-orange-400">100%</span></div>
+      <span class="text-xs font-bold text-white uppercase text-center tracking-wider">Guest Satisfaction</span>
+    </div>
+  </div>
+  <!-- Testimonials -->
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+    <div class="glass-card p-8 rounded-xl relative group">
+      <span class="material-symbols-outlined text-blue-400/40 absolute top-4 right-4 text-4xl">terminal</span>
+      <div class="flex items-center gap-4 mb-6"><div class="w-12 h-12 rounded-full overflow-hidden border border-blue-400/30 bg-slate-700"></div><div><h4 class="font-semibold text-white">Elena Vance</h4><p class="text-blue-400 text-xs font-bold uppercase tracking-wider">Lead Developer @ TechFlow</p></div></div>
+      <p class="text-slate-400 italic leading-relaxed text-sm">"Prabin's approach to code quality is surgical. He doesn't just write functions; he builds robust architectures that are as scalable as they are elegant. A true logic-first thinker."</p>
+    </div>
+    <div class="glass-card p-8 rounded-xl relative group">
+      <span class="material-symbols-outlined text-orange-400/40 absolute top-4 right-4 text-4xl">liquor</span>
+      <div class="flex items-center gap-4 mb-6"><div class="w-12 h-12 rounded-full overflow-hidden border border-orange-400/30 bg-slate-700"></div><div><h4 class="font-semibold text-white">Marco Rossi</h4><p class="text-orange-400 text-xs font-bold uppercase tracking-wider">GM @ The Gilded Lily</p></div></div>
+      <p class="text-slate-400 italic leading-relaxed text-sm">"In high-pressure service, Prabin is the calm within the storm. His leadership on the floor and precision behind the bar are unmatched. He elevates every guest's evening into an event."</p>
+    </div>
+    <div class="glass-card p-8 rounded-xl relative group">
+      <span class="material-symbols-outlined text-blue-400/40 absolute top-4 right-4 text-4xl">database</span>
+      <div class="flex items-center gap-4 mb-6"><div class="w-12 h-12 rounded-full overflow-hidden border border-blue-400/30 bg-slate-700"></div><div><h4 class="font-semibold text-white">Sarah Jenkins</h4><p class="text-blue-400 text-xs font-bold uppercase tracking-wider">CTO @ Nexus Systems</p></div></div>
+      <p class="text-slate-400 italic leading-relaxed text-sm">"Rare to find a developer who understands the business logic as well as the technical implementation. Prabin delivered our core API two weeks ahead of schedule with zero critical bugs."</p>
+    </div>
+    <div class="glass-card p-8 rounded-xl relative group">
+      <span class="material-symbols-outlined text-orange-400/40 absolute top-4 right-4 text-4xl">groups</span>
+      <div class="flex items-center gap-4 mb-6"><div class="w-12 h-12 rounded-full overflow-hidden border border-orange-400/30 bg-slate-700"></div><div><h4 class="font-semibold text-white">Julian Chen</h4><p class="text-orange-400 text-xs font-bold uppercase tracking-wider">Operations Director @ LUX Group</p></div></div>
+      <p class="text-slate-400 italic leading-relaxed text-sm">"Prabin's ability to lead a team through a 200-cover night without breaking a sweat is remarkable. He understands the 'art' in service artistry perfectly."</p>
+    </div>
+    <div class="glass-card p-8 rounded-xl relative group">
+      <span class="material-symbols-outlined text-blue-400/40 absolute top-4 right-4 text-4xl">code_blocks</span>
+      <div class="flex items-center gap-4 mb-6"><div class="w-12 h-12 rounded-full overflow-hidden border border-blue-400/30 bg-slate-700"></div><div><h4 class="font-semibold text-white">David Miller</h4><p class="text-blue-400 text-xs font-bold uppercase tracking-wider">Senior Engineer @ GridLock</p></div></div>
+      <p class="text-slate-400 italic leading-relaxed text-sm">"Clean, documented, and highly efficient. Reviewing Prabin's PRs is a masterclass in how modern JavaScript should be written. He is a reliable asset to any sprint."</p>
+    </div>
+    <div class="glass-card p-8 rounded-xl relative group">
+      <span class="material-symbols-outlined text-orange-400/40 absolute top-4 right-4 text-4xl">local_bar</span>
+      <div class="flex items-center gap-4 mb-6"><div class="w-12 h-12 rounded-full overflow-hidden border border-orange-400/30 bg-slate-700"></div><div><h4 class="font-semibold text-white">Sophia Loren</h4><p class="text-orange-400 text-xs font-bold uppercase tracking-wider">Creative Lead @ Spirits & Co</p></div></div>
+      <p class="text-slate-400 italic leading-relaxed text-sm">"His cocktail creations are like his code—perfectly balanced and built on a foundation of classic principles with a modern, innovative twist."</p>
+    </div>
+  </div>
+  <!-- CTA -->
+  <section class="glass-card rounded-2xl p-12 text-center relative overflow-hidden">
+    <h2 class="text-3xl font-semibold text-white mb-6 font-['Space_Grotesk']">Let's Build Something Exceptional</h2>
+    <p class="text-lg text-slate-400 mb-10 max-w-xl mx-auto">Whether you need a scalable software solution or a world-class hospitality experience, I bring precision and passion to every project.</p>
+    <div class="flex flex-col sm:flex-row justify-center gap-4">
+      <a href="contact.html" class="bg-blue-400 text-gray-900 font-bold px-10 py-4 rounded-xl hover:bg-blue-300 transition-all">Contact Now</a>
+      <a href="contact.html" class="glass-card text-white font-bold px-10 py-4 rounded-xl border-white/20 hover:border-blue-400/50 transition-all">Hire Me</a>
+    </div>
+  </section>
+</main>
+<footer class="w-full border-t border-white/5 bg-slate-950/60 backdrop-blur-md">
+  <div class="flex flex-col md:flex-row justify-between items-center px-12 py-8 gap-4 max-w-7xl mx-auto">
+    <span class="text-lg font-semibold text-slate-200 font-['Space_Grotesk']">Prabin Ayer</span>
+    <span class="text-sm text-slate-500">© 2024 Prabin Ayer. Built with Precision.</span>
+    <div class="flex gap-8">
+      <a href="https://www.facebook.com/ayerprabin" class="text-slate-500 hover:text-blue-300 text-sm">Facebook</a>
+      <a href="https://www.instagram.com/ayerprabin/" class="text-slate-500 hover:text-blue-300 text-sm">Instagram</a>
+      <a href="https://www.linkedin.com/in/ayerprabin/" class="text-slate-500 hover:text-blue-300 text-sm">LinkedIn</a>
+      <a href="https://github.com/AyerPrabin" class="text-slate-500 hover:text-blue-300 text-sm">GitHub</a>
+      <a href="mailto:ayerprabin95@gmail.com" class="text-slate-500 hover:text-blue-300 text-sm">Email</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
